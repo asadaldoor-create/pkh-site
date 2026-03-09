@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company | PK Hwanter Corporation</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="PK Hwanter Corporation Home">
+          <img class="brand-logo" src="assets/images/pkh-crop.jpg" alt="PK Hwanter Corporation logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+          <div class="logo-fallback">PK</div>
+          <div>
+            <strong>PK Hwanter Corporation</strong>
+            <p>PKH CORP</p>
+          </div>
+        </a>
+        <div class="nav-actions">
+          <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Toggle language">한글</button>
+          <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" data-i18n="menu">Menu</button>
+        </div>
+        <nav id="site-nav" class="site-nav">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="company.html" class="active" data-i18n="nav.company">Company</a>
+          <a href="board.html" data-i18n="nav.board">Board</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section">
+      <h1 data-i18n="company.title">Company</h1>
+      <p data-i18n="company.lead">
+        <strong>PK Hwanter Corporation</strong> builds foundational platforms for global business and trade collaboration.
+        We also use the abbreviation <strong>PKH CORP</strong> in documents and marketing materials.
+      </p>
+
+      <div class="cards two-col">
+        <article class="card">
+          <h2 data-i18n="company.vision.title">Vision</h2>
+          <p data-i18n="company.vision.desc">We standardize digital trade and quotation workflows to help customers and partners connect faster.</p>
+        </article>
+        <article class="card">
+          <h2 data-i18n="company.roadmap.title">Expansion Roadmap</h2>
+          <ul>
+            <li data-i18n="company.roadmap.1">Advanced B2B international trade quotation engine</li>
+            <li data-i18n="company.roadmap.2">Simple consumer quote calculator</li>
+            <li data-i18n="company.roadmap.3">Category-based integrated quotation dashboard</li>
+          </ul>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> PK Hwanter Corporation (PKH CORP). All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
